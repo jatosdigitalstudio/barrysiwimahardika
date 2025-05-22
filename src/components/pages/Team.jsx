@@ -15,7 +15,7 @@ export default function Team() {
     <section className="bg-gray-50 py-16 px-6" id='team'>
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row justify-center items-center gap-12">
-          <Fade cascade damping={0.2} delay={200}>
+          <Fade cascade damping={0.2} delay={200} triggerOnce>
             <div className="md:w-[32rem] text-left mb-8">
               <h6 className="text-orange text-sm tracking-widest md:text-md mb-2 uppercase">
                   Susunan Pimpinan    
@@ -31,7 +31,7 @@ export default function Team() {
           </Fade>
 
           <div className="max-w-2xl grid grid-cols-2 md:grid-cols-3 gap-8">
-            <Fade cascade damping={0.2} delay={400}>
+            <Fade cascade damping={0.2} delay={400} triggerOnce>
               {team.map((member, index) => (
                 <div key={index} className="bg-white rounded-xl shadow-md hover:shadow-lg transition-all">
                   <div className="w-full h-52 relative">

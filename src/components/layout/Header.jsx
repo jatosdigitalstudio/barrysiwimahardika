@@ -15,7 +15,6 @@ export default function Header() {
     { name: 'Product & Layanan', path: '/#layanan' },
     { name: 'Klien', path: '/#klien' },
     { name: 'Team', path: '/#team' },
-    { name: 'Kontak', path: '/#kontak' },
   ];
 
   useEffect(() => {

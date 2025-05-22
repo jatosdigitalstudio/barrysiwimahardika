@@ -20,7 +20,7 @@ export default function Product() {
     return (
         <section className="flex justify-center items-center my-12 py-20 px-6 bg-gray-50" id="layanan">
             <div className="max-w-7xl mx-auto md:p-6">
-                <Fade cascade delay={200} damping={0.2}>
+                <Fade cascade delay={200} damping={0.2} triggerOnce>
                     <div className="max-w-3xl mb-8">
                         <h6 className="text-orange text-sm tracking-widest md:text-md mb-2 uppercase">
                             Produk & Layanan      
@@ -36,8 +36,8 @@ export default function Product() {
                     </div>
                 </Fade>
                
-                <div className="flex flex-col md:flex-wrap gap-3 mb-6 border-b pb-2">
-                    <Fade cascade damping={0.2} delay={400} direction="right">
+                <div className="flex flex-col md:flex-row md:flex-wrap gap-3 mb-6 border-b pb-2">
+                    <Fade cascade damping={0.2} delay={400} direction="right" triggerOnce>
                         {tabs.map((tab) => (
                             <button
                                 key={tab.id}
@@ -53,7 +53,7 @@ export default function Product() {
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
-                    <Fade cascade delay={800}>
+                    <Fade cascade delay={800} triggerOnce>
                         <div className="transform transition duration-300">
                             <h2 className="text-2xl font-bold mb-2">{content.title}</h2>
                             <p className="mb-4 text-gray-700">{content.description}</p>
@@ -65,7 +65,7 @@ export default function Product() {
                         </div>
                     </Fade>
 
-                    <Fade cascade delay={800}>
+                    <Fade cascade delay={800} triggerOnce>
                         <div className="">
                             <Image
                                 src={content.image}

@@ -27,7 +27,7 @@ export default function Footer() {
                 </div>
                 
                 <div className="col-span-2 ">
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-2">
                         <div>
                             <h3 className="font-bold text-white text-xl mb-4">Perusahaan</h3>
                             <ul className="space-y-2 text-md ">

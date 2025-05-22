@@ -17,7 +17,7 @@ export default function Hero() {
             
             <div className="absolute inset-0 bg-gradient-to-r from-black via-black/75 to-transparent z-10" />
 
-            <Slide direction="left" cascade damping={0.2} className="relative z-20 text-left text-white md:ml-12 px-6 md:px-8">
+            <Slide direction="left" cascade damping={0.2} triggerOnce className="relative z-20 text-left text-white md:ml-12 px-6 md:px-8">
                 <div className="max-w-2xl">
                     <h1 className="text-xl leading-[1.4] font-style md:text-4xl font-medium">
                         Solusi Terpercaya untuk Perdagangan, Pengadaan, dan Logistik Nasional & Internasional

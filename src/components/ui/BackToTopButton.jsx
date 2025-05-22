@@ -43,7 +43,7 @@ const BackToTopButton = () => {
             >
             {isVisible && (
                 <Link 
-                    href="https://wa.me/6285717175912" 
+                    href="https://wa.me/6282299968965" 
                     target='_blank'
                     className='flex flex-row justify-center gap-2'
                     >

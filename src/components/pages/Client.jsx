@@ -7,7 +7,7 @@ export default function Client() {
   return (
     <section id="klien" className="py-8 px-8 lg:my-30">
       <div className="container max-w-7xl mx-auto text-center place-content-center grid">
-        <Fade cascade damping={0.4} delay={200}>
+        <Fade cascade damping={0.4} delay={200} triggerOnce>
             <div className="max-w-4xl mx-auto mb-8">
                 <h6 className="text-orange text-sm tracking-widest md:text-md mb-2 uppercase">
                     Klien kami      
@@ -23,7 +23,7 @@ export default function Client() {
             </div>
         </Fade>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <Fade cascade damping={0.2} delay={400}>
+            <Fade cascade damping={0.2} delay={400} triggerOnce>
                 <div className="flex flex-col px-4 py-6 bg-white border border-gray-500 rounded-lg">
                     <h6 className="font-style text-xl font-bold mb-4">Government</h6>
                     <div className="grid grid-cols-4 gap-2">
