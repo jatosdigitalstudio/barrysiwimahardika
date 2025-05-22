@@ -2,8 +2,8 @@ import Image from 'next/image';
 import { Fade, Slide } from "react-awesome-reveal";
 
 const team = [
-  { name: 'Michael', position: 'Komisaris', image: '/images/team/Komisaris.png' },
-  { name: 'Barry', position: 'Direktur Utama', image: '/images/team/CEO.png' },
+  { name: 'Michele Wiethoff', position: 'Komisaris', image: '/images/team/Komisaris.png' },
+  { name: 'Barry Wiethoff', position: 'Direktur Utama', image: '/images/team/CEO.png' },
   { name: 'Ibnu Khotamil', position: 'Direktur Operasional', image: '/images/team/COO.png' },
   { name: 'Mirna Nurhayati', position: 'Direktur Keuangan', image: '/images/team/CFO.png' },
   { name: 'Zhamir Ambya', position: 'Direktur Pemasaran', image: '/images/team/CMO.png' },

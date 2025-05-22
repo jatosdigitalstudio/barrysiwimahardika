@@ -9,7 +9,7 @@ export default function About() {
                     <div className="flex flex-col md:w-[52rem] space-y-8 md:px-8">
                         <Slide direction="left" cascade damping={0.6} duration={500} triggerOnce>
                             <Image 
-                                src="https://images.unsplash.com/photo-1531973576160-7125cd663d86?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                                src="https://images.unsplash.com/photo-1725868214949-bb85733e0a17?q=80&w=2044&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                                 width={400} 
                                 height={400} 
                                 alt="Barry Siwi Mahardika" 
