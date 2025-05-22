@@ -30,7 +30,7 @@ export default function Team() {
             </div>
           </Fade>
 
-          <div className="max-w-2xl grid grid-cols-2 md:grid-cols-3 gap-8">
+          <div className="w-full md:max-w-2xl grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-8">
             <Fade cascade damping={0.2} delay={400} triggerOnce>
               {team.map((member, index) => (
                 <div key={index} className="bg-white rounded-xl shadow-md hover:shadow-lg transition-all">
@@ -42,8 +42,8 @@ export default function Team() {
                       className="object-cover rounded-lg"
                     />
                   </div>
-                  <div className="p-2 md:px-4 md:py-4">
-                    <h3 className="text-lg font-semibold">{member.name}</h3>
+                  <div className="py-2 px-3 md:px-4 md:py-4">
+                    <h3 className="text-md md:text-lg font-semibold">{member.name}</h3>
                     <p className="text-gray-500 text-sm">{member.position}</p>
                   </div>
                 </div>

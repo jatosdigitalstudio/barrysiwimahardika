@@ -5,7 +5,7 @@ import { Fade, Slide } from "react-awesome-reveal";
 
 export default function Hero() {
   return (
-    <section className="relative h-[85vh] overflow-hidden md:mx-8 bg-[#652126] flex items-center">
+    <section className="relative h-[85vh] overflow-hidden md:mx-8 bg-[#652126] flex items-center rounded-lg">
         <div className="container mx-auto">
             <Image
                 src="https://images.unsplash.com/photo-1617526738882-1ea945ce3e56?q=80&w=2095&auto=format&fit=crop"
