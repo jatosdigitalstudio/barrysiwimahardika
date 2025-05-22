@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-text: var(--font-text);
+  --font-style: var(--font-style);
+  --color-orange: #FC6501;
+  --color-red: #E02C2B;
+  --color-yellow: #FAE27B;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-text);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#tentang {
+  scroll-margin-top: 50px;
+}
+
+#layanan {
+  scroll-margin-top: -70px;
+}
